@@ -6,9 +6,7 @@
 
 # echo commands and exit with failure if any commands fail
 set -ex
-
+ls -l
 # run formatter
-DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
-
-$DIR/run-clang-format.py -i -r $1
+run-clang-format.py -i -r $1
 

@@ -1,0 +1,14 @@
+# action.yml
+name: 'Format C/C++'
+description: 'Format C/C++ source files'
+inputs:
+  format-targets:
+    description: 'Text file with filter for files to format'
+    required: true
+    default: 'targets.txt'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.format-targets }}
+

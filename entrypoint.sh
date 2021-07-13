@@ -8,5 +8,5 @@
 set -ex
 
 # run formatter
-run-clang-format.py -i -r $1
+./run-clang-format.py -i -r $1
 

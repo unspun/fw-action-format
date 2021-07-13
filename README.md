@@ -1,5 +1,5 @@
 # Format action
-This action format C/C++ sources using clang-format according to the .clang-format in the repository file system.
+This action formats C/C++ sources using clang-format according to the .clang-format in the repository file system.
 
 ## Inputs
 

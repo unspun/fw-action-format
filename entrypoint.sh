@@ -8,5 +8,5 @@
 set -ex
 
 # run formatter
-python3 /run-clang-format.py -i -r $1
+python3 /run-clang-format.py -i -r $(cat $1)
 

@@ -6,7 +6,7 @@
 
 # echo commands and exit with failure if any commands fail
 set -ex
-ls -l
+
 # run formatter
 run-clang-format.py -i -r $1
 

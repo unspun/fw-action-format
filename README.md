@@ -8,7 +8,8 @@ This action format C/C++ sources using clang-format according to the .clang-form
 **Required** Text file with filter for files to format.
 
 ## Example usage
-
+```
 uses: unspun/fw-action-format@v1
 with:
   format-targets: 'action-format-targets.txt'
+```
